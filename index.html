@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tic tac toe</title>
+  </head>
+  <body>
+    <div id="app" class="container">
+      <div class="board">
+        <button class="element" onclick="handleClick(0,0)"></button
+        ><button class="element" onclick="handleClick(0,1)"></button
+        ><button class="element" onclick="handleClick(0,2)"></button
+        ><button class="element" onclick="handleClick(1,0)"></button
+        ><button class="element" onclick="handleClick(1,1)"></button
+        ><button class="element" onclick="handleClick(1,2)"></button
+        ><button class="element" onclick="handleClick(2,0)"></button
+        ><button class="element" onclick="handleClick(2,1)"></button
+        ><button class="element" onclick="handleClick(2,2)"></button>
+      </div>
+      <div class="h-1 b"></div>
+      <div class="h-2 b"></div>
+      <div class="h-3 b"></div>
+      <div class="v-1 b"></div>
+      <div class="v-2 b"></div>
+      <div class="v-3 b"></div>
+      <div class="c-2 b"></div>
+      <div class="c-1 b"></div>
+      <button class="newGame" onclick="newGame()">new game</button>
+    </div>
+    <script src="./script.js" />
+  </body>
+</html>

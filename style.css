@@ -1,0 +1,89 @@
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: blue;
+  border: 3px red solid;
+  width: 300px;
+  height: 300px;
+}
+
+.element {
+  display: inline-block;
+  background-color: yellow;
+  border: 2px green solid;
+  width: 100px;
+  height: 100px;
+  color: black;
+}
+
+.newGame {
+  width: 100px;
+  height: 60px;
+  margin: 5px;
+}
+
+.h-1,
+.h-2,
+.h-3,
+.v-1,
+.v-2,
+.v-3,
+.c-1,
+.c-2 {
+  display: block;
+  position: absolute;
+  border-radius: 15px;
+  background-color: blue;
+  visibility: hidden;
+}
+
+.h-1,
+.h-2,
+.h-3 {
+  width: 250px;
+  height: 30px;
+  top: 45px;
+  left: 35px;
+}
+
+.h-2 {
+  top: 145px;
+  left: 35px;
+}
+
+.h-3 {
+  top: 245px;
+  left: 35px;
+}
+
+.v-1,
+.v-2,
+.v-3 {
+  width: 30px;
+  height: 250px;
+  top: 35px;
+  left: 45px;
+}
+
+.v-2 {
+  top: 35px;
+  left: 145px;
+}
+
+.v-3 {
+  top: 35px;
+  left: 245px;
+}
+
+.c-1,
+.c-2 {
+  transform: rotate(45deg);
+  width: 30px;
+  height: 300px;
+  top: 10px;
+  left: 145px;
+}
+
+.c-2 {
+  transform: rotate(-45deg);
+}
